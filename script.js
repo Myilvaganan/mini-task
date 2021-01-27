@@ -3,7 +3,7 @@ container.setAttribute("class","container");
 
 
 var row= document.createElement("div");
-row.setAttribute("class", "row m-2 p-3");
+row.setAttribute("class", "row m-2 p-1");
 
 
 var content= document.createElement("div");
@@ -26,7 +26,7 @@ var row_inside= document.createElement("div");
 row_inside.setAttribute("class", "row");
 
 var content_inside1= document.createElement("div");
-content_inside1.setAttribute("class","col-6");
+content_inside1.setAttribute("class","col-lg-6");
 
 var form_inside1= document.createElement("div");
 form_inside1.setAttribute("class","form-group");
@@ -45,7 +45,7 @@ content_inside1.append(form_inside1);
 row_inside.append(content_inside1);
 
 var content_inside2= document.createElement("div");
-content_inside2.setAttribute("class","col-6");
+content_inside2.setAttribute("class","col-lg-6");
 
 var form_inside2= document.createElement("div");
 form_inside2.setAttribute("class","form-group");
