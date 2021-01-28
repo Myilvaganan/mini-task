@@ -8,7 +8,9 @@ row.setAttribute("class", "row m-2 p-1");
 
 var content= document.createElement("div");
 content.setAttribute("class","offset-md-3 col-md-6 p-3");
-content.style.backgroundColor="yellow";
+content.style.backgroundColor="#fceb03";
+content.style.borderRadius="8px";
+content.style.border="2px solid black";
 
 var form= document.createElement("div");
 form.setAttribute("class","form-group");
