@@ -3,7 +3,7 @@ container.setAttribute("class","container");
 
 
 var row= document.createElement("div");
-row.setAttribute("class", "row m-2 p-1");
+row.setAttribute("class", "row m-4 p-1");
 
 
 var content= document.createElement("div");
